@@ -3,9 +3,13 @@ Terraform Code for Managing IP Blocklists with Volterra
 This repository contains Terraform code to create and manage IP blocklists for your Volterra environment using prefix sets. The code automates the following:
 
 Reading IP addresses from a text file (ips.txt).
+
 Chunking the IP addresses into smaller sets (with a maximum of 1024 IPs per chunk).
+
 Creating volterra_ip_prefix_set resources for each chunk of IP addresses.
+
 Creating a volterra_service_policy that includes the prefix sets dynamically in the deny_list section.
+
 Prerequisites
 Before you can use this Terraform configuration, you need to have the following:
 
