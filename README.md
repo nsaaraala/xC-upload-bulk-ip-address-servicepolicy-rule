@@ -1,4 +1,4 @@
-# xC-block-ip-prefixset-policy
+
 
 # Terraform Code for Managing IP Blocklists with Volterra
 
